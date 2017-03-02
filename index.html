@@ -4,43 +4,47 @@
   <title>Хобби</title>
   <meta charset="utf-8">
   <link rel="stylesheet" href="css/styles_flex.css">
-  <link rel="stylesheet" href="css/styles.css">
   <link href="school_of_fish.ico" rel="shortcut icon" type="image/x-icon" />
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+  
   <header class="header_top">
-    <div id="ontop" class="logo">
-      <div class="spin">
-        <figure class="box box-1">
-          <img src="images/logo.png" width="100" height="100" alt="logo" title="Логотипчик">
-        </figure>
+    <div class="mid_head">
+      <div id="ontop" class="logo">
+        <div class="spin">
+          <figure class="box box-1">
+            <img src="images/logo.png" width="100" height="100" alt="logo" title="Логотипчик">
+          </figure>
+        </div>
       </div>
+      <nav class="main-menu">
+        <ul>
+          <li class="active">
+            <a href="#">Главная</a>
+          </li>
+          <li>
+            <a href="gallery2.html">Галерея</a>
+          </li>
+          <li>
+            <a href="map.html">Карты и маршруты</a>
+          </li>
+          <li>
+            <a href="equipment.html">Снаряжение</a>
+          </li>
+          <li>
+            <a href="vacation.html">Места отдыха</a>
+          </li>
+        </ul>
+        <form class="search">
+          <p>
+            <input class="searchs" type="search" name="q" placeholder="Поиск по сайту">
+            <input class="searches" type="submit" value="Найти"></p>
+        </form>
+      </nav>
     </div>
-    <nav class="main-menu">
-      <ul>
-        <li>
-          <a href="index.html">Главная</a>
-        </li>
-        <li>
-          <a href="gallery2.html">Галерея</a>
-        </li>
-        <li>
-          <a href="map.html">Карты и маршруты</a>
-        </li>
-        <li>
-          <a href="equipment.html">Снаряжение</a>
-        </li>
-        <li>
-          <a href="vacation.html">Места отдыха</a>
-        </li>
-      </ul>
-      <form class="search">
-        <p>
-          <input class="searchs" type="search" name="q" placeholder="Поиск по сайту">
-          <input class="searches" type="submit" value="Найти"></p>
-      </form>
-    </nav>
   </header>
+  
   <main class="content">
     <article class="about-me">
       <section class="my_prof">
@@ -54,7 +58,8 @@
             и других водоёмах Украины
           </small>
         </p>
-        <img class="diver" src="images/diver.png" alt="diver" title="Это дайвер"></section>
+        <img class="diver" src="images/diver.png" alt="diver" title="Это дайвер">
+      </section>
       <aside class="last-actions">
         <div class="dive_winter">
           <p>
@@ -66,8 +71,10 @@
              вашего тела.
           </p>
         </div>
-        <img class="diver diver1" src="images/dive_winter.jpg" alt="divew" title="Зимой холодно"></aside>
+        <img class="diver diver1" src="images/dive_winter.jpg" alt="divew" title="Зимой холодно">
+      </aside>
     </article>
+
     <section class="posts">
       <article class="featured-post">
         <header>
@@ -139,12 +146,13 @@
         </p>
         <p>
           <input type="submit" value="Отправить"></p>
-
       </form>
       <div class="put_on">
         <p>Как правильно снять гидрокостюм</p>
-        <img  src="images/put_suit.png" alt="put_on"></div>
+        <img  src="images/put_suit.png" alt="put_on">
+      </div>
     </section>
+
     <section class="posts">
       <article class="featured-post">
         <header>
@@ -201,23 +209,11 @@
       <article class="content-box">
         <section class="sec_form">
           <h2 class="hp-1">Виды погружений</h2>
-          <!-- <form action="demo_keygen.asp" method="get">
-          Username:
-          <input type="text" name="usr_name">
-          Encryption:
-          <keygen name="security">
-            <input type="submit"></form>
-          -->
           <form class="form" name="choice" method="get" action="demo_keygen.asp" autocomplete="on" keytype="rsa">
-            <!-- Атрибут action Адрес программы или документа, который обрабатывает данные формы. -->
-            <!-- keytype Задаёт алгоритм шифрования ключа. К примеру, значение rsa использует криптографический алгоритм RSA. -->
-            <!--  Тег <keygen>
-            определяет поле генератора пара ключей используется для форм.
-      Когда форма отправлена, закрытый ключ хранится локально, а открытый ключ передается на сервер. -->
-            <p> <b>Ваше имя:</b>
+            <p><b>Ваше имя:</b>
               <br/>
               <input type="text" size="40"></p>
-            <p> <b>Выберите какой вид погружения вам
+            <p><b>Выберите какой вид погружения вам
                 <br/>
                 больше всего нравиться:</b> 
               <br/>
@@ -238,20 +234,16 @@
             </p>
             <p>
               <keygen name="security" >
-                <input type="submit" value="Отправить">
-                <input type="reset" value="Очистить"></p>
-            </form>
-
+              <input type="submit" value="Отправить">
+              <input type="reset" value="Очистить">
+            </p>
+          </form>
             <div class="divers">
               <img src="images/freediving4.jpg" alt="freediving" class="diver4" title="Freediving">
               <img src="images/diving4.jpg" alt="diving" class="diver4" title="Diving ">
               <img src="images/snorkling4.jpg" alt="snorkling" class="diver4" title="Snorkeling">
             </div>
-           <!--  <div class="choice">
-              <img src="images/choice.png" alt="choice" title="">
-            </div> -->
-          </section>
-
+        </section>
           <div class="wrapper">
             <div class="col-1">
               <figure class="img-box">
@@ -288,14 +280,15 @@
               </figure>
             </div>
           </div>
-        </article>
-      </div>
+      </article>
+    </div>
       <p class="link_frame">
         <a href="frame.html" target="_blank">Переход на другие ресурсы</a>
       </p>
-    </main>
+  </main>
 
-    <footer class="page-footer">
+  <footer class="page-footer">
+    <div class="mid_foot">
       <div class="copyright">
         <p>
           &copy; 2017 Website created by Sevenlogiks -
@@ -307,41 +300,12 @@
         <a href="#" class="fb-ico icons"></a>
         <a href="#" class="tw-ico icons"></a>
       </div>
-      <!-- <ul class="social-list">
-      <li>
-        <a href="https://twitter.com" target="_blank">
-          <img src="images/soc-icon-1.png" alt="Twitter"></a>
-      </li>
-      <li>
-        <a href="https://www.facebook.com/" target="_blank">
-          <img src="images/soc-icon-2.png" alt="Facebook"></a>
-      </li>
-      <li>
-        <a href="https://www.whatsapp.com/" target="_blank">
-          <img src="images/soc-icon-3.png" alt="WhatsApp"></a>
-      </li>
-    </ul>
-    <ul class="social-list">
-      <li>
-        <a class="icon-soc_icon_1" href="https://twitter.com" target="_blank">
-          <img src="images/soc-icon-1.png" alt="Twitter"></a>
-      </li>
-      <li>
-        <a href="https://www.facebook.com/" target="_blank">
-          <img src="images/soc-icon-2.png" alt="Facebook"></a>
-      </li>
-      <li>
-        <a href="https://www.whatsapp.com/" target="_blank">
-          <img src="images/soc-icon-3.png" alt="WhatsApp"></a>
-      </li>
-    </ul>
-    -->
-    <p>
-      <a href="#top">Наверх</a>
-    </p>
+      <p>
+        <a href="#top">Наверх</a>
+      </p>
+    </div>
   </footer>
-  <!-- <script src="js/script.js"></script>
--->
+
 </body>
 <script type="text/javascript">
       window.onload = function() {
